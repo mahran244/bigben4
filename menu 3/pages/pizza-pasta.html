@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big Ben Café - Pizza & Pâtes</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav-container" role="navigation" aria-label="Menu principal">
+        <div class="nav-wrapper">
+            <div class="nav-header">
+                <a href="../index.html" class="logo" aria-label="Big Ben Café - Accueil">Big Ben Café</a>
+                <button class="menu-toggle" onclick="toggleMenu()" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
+                <ul class="nav-menu" id="navMenu" role="menubar">
+                    <li role="none"><a href="../index.html" onclick="closeMenu()" role="menuitem">Accueil</a></li>
+                    <li role="none"><a href="pizza-pasta.html" onclick="closeMenu()" role="menuitem">Pizza & Pâtes</a></li>
+                    <li role="none"><a href="viandes-poissons.html" onclick="closeMenu()" role="menuitem">Viandes & Poissons</a></li>
+                    <li role="none"><a href="sandwiches.html" onclick="closeMenu()" role="menuitem">Sandwiches</a></li>
+                    <li role="none"><a href="cafe-boissons.html" onclick="closeMenu()" role="menuitem">Café & Boissons</a></li>
+                    <li role="none"><a href="desserts.html" onclick="closeMenu()" role="menuitem">Desserts</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Pizza & Pâtes</h1>
+            <p class="subtitle">Nos spécialités italiennes faites maison</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="menu-grid">
+            <!-- Section Pizza -->
+            <section class="menu-section">
+                <h2 class="section-title">PIZZA</h2>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Pizza Margherita (sauce tomate, mozzarella)</div></div><div class="item-price">13.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Pizza Funghi (sauce tomate, mozzarella, champignons)</div></div><div class="item-price">16.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Pizza Pepperoni (sauce tomate, mozzarella, pepperoni)</div></div><div class="item-price">17.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Pizza Thon (sauce tomate, mozzarella, thon)</div></div><div class="item-price">18.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Pizza 3 Jambon (sauce tomate, mozzarella, jambon, pepperoni, salson)</div></div><div class="item-price">18.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Pizza Berbère (sauce tomate, mozzarella, œuf, merguez)</div></div><div class="item-price">18.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Pizza Mexicaine (sauce tomate, mozzarella, escalope)</div></div><div class="item-price">18.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Pizza 4 Saisons (sauce, mozzarella, jambon, pepperoni, thon)</div></div><div class="item-price">19.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Pizza Chèvre Miel (crème fraîche, fromage de chevrette)</div></div><div class="item-price">19.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Pizza Mare Monti (sauce tomate, mozzarella, thon, champignon)</div></div><div class="item-price">19.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Pizza 5 Fromages (sauce rose, gruyère, parnes gen, mozzarella, rock fort)</div></div><div class="item-price">20.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Mizza Pizza (sauce rose, mozzarella, champignon, escalope, gruyère epinard)</div></div><div class="item-price">20.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Pizza Chevrette (sauce tomate, mozzarella, chevrette)</div></div><div class="item-price">21.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Pizza Symphonie (sauce rose, mozzarella, chevrette, gruyère, champignon)</div></div><div class="item-price">23.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Pizza Chevrette XL</div></div><div class="item-price">32.000</div></div>
+            </section>
+
+            <!-- Section Pâtes -->
+            <section class="menu-section">
+                <h2 class="section-title">PÂTES</h2>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Spaghetti Escalope</div></div><div class="item-price">18.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Penne Thon et Fromage Gruyère</div></div><div class="item-price">19.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Pasta Puttanesca</div></div><div class="item-price">21.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Penne Poulet Champignon</div></div><div class="item-price">24.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Spaghetti Bolognaise</div></div><div class="item-price">25.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Penne Poulet Panée Pesto</div></div><div class="item-price">25.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Tagliatelles 4 Fromage Filet</div></div><div class="item-price">27.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Pasta Poulet Sauce Rosée</div></div><div class="item-price">28.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Penne Crevette</div></div><div class="item-price">29.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Tagliatelles Pistache et Burrata</div></div><div class="item-price">31.000</div></div>
+                <div class="menu-item"><div class="item-info"><div class="item-name">Pasta Fruits de Mer</div></div><div class="item-price">33.000</div></div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <h3>Big Ben Café</h3>
+            <p class="hours">Ouvert tous les jours de 8h00 à 23h00</p>
+            <div class="contact-info">
+                <div class="contact-item">📞 +216 XX XXX XXX</div>
+                <div class="contact-item">📍 Adresse du restaurant</div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
